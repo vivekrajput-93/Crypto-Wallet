@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Web3 Wallet - Ethereum & Solana
+A crypto wallet built using React, Next.js, and Web3 libraries to generate Ethereum & Solana wallets, allowing users to securely create and manage mnemonic phrases, public keys, and private keys.
 
-## Getting Started
+🚀 Features
+✅ Supports Ethereum & Solana wallets
+✅ Generates 12-word mnemonic seed phrases
+✅ Derives public & private keys securely
+✅ Copy-to-clipboard for easy backup
+✅ Toggle visibility for private keys
+✅ Stores wallets securely in local storage
+✅ User-friendly UI with Tailwind CSS & ShadCN
 
-First, run the development server:
+🛠 Tech Stack & Libraries Used
+Frontend: React, Next.js
 
-```bash
+Styling: Tailwind CSS, ShadCN
+
+Web3 Libraries:
+
+ethers.js – Ethereum wallet generation
+
+@solana/web3.js – Solana wallet handling
+
+bip39 – Mnemonic generation
+
+UI Enhancements:
+
+Lucide-react – Icons
+
+Sonner – Notifications
+
+📦 Installation & Setup
+1️⃣ Clone the repo:
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/web3-wallet.git
+cd web3-wallet
+
+
+2️⃣ Install dependencies:
+bash
+Copy
+Edit
+npm install
+
+
+3️⃣ Run the development server:
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Home Page	Ethereum Wallet	Solana Wallet
+🎯 How It Works
+1️⃣ Select a blockchain – Ethereum or Solana
+2️⃣ Generate a 12-word mnemonic phrase
+3️⃣ View public & private keys (with hide/reveal toggle)
+4️⃣ Copy keys & seed phrases securely
+5️⃣ Add multiple wallets with one-click generation
 
-## Learn More
+📌 Next Steps & Improvements
+🔹 Encryption for private keys before storage
+🔹 Transaction signing & sending for Ethereum & Solana
+🔹 WalletConnect integration for seamless dApp usage
+🔹 Multi-chain support (Polygon, Binance, etc.)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🤝 Contributing
+💡 Have ideas to improve this wallet? Feel free to fork, open an issue, or submit a PR!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+git checkout -b feature-branch
+git commit -m "Add new feature"
+git push origin feature-branch
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📝 License
+This project is open-source under the MIT License.
+
