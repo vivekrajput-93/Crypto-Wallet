@@ -34,8 +34,8 @@ Sonner – Notifications
 bash
 Copy
 Edit
-[git clone https://github.com/yourusername/web3-wallet.git](https://github.com/vivekrajput-93/Crypto-Wallet.git)
-cd web3-wallet
+https://github.com/vivekrajput-93/Crypto-Wallet.git
+cd Crypto-wallet
 
 
 2️⃣ Install dependencies:
