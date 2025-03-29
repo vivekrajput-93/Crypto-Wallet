@@ -34,7 +34,7 @@ Sonner – Notifications
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/web3-wallet.git
+[git clone https://github.com/yourusername/web3-wallet.git](https://github.com/vivekrajput-93/Crypto-Wallet.git)
 cd web3-wallet
 
 
